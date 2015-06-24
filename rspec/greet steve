@@ -1,0 +1,9 @@
+ greeting = greet("Steve", "Jobs")
+ expect(greeting).to eq("Hello Steve Jobs.")
+
+ describe "greet" do
+  it "says hello to someone" do
+    greeting = greet("Steve", "Jobs")
+    expect(greeting).to eq("Hello Steve Jobs.")
+  end
+end
